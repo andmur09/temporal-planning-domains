@@ -12,10 +12,10 @@
 		(right ?x - tile ?y - tile)
 		(left ?x - tile ?y - tile)		
 		(clear ?x - tile)
-                (painted ?x - tile ?c - color)
+    (painted ?x - tile ?c - color)
 		(robot-has ?r - robot ?c - color)
-                (available-color ?c - color)
-                (free-color ?r - robot))
+    (available-color ?c - color)
+    (free-color ?r - robot))
 
 (:durative-action change-color
   :parameters (?r - robot ?c - color ?c2 - color)
