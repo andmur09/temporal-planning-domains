@@ -3,7 +3,10 @@ path=$(pwd)
 domain=$path/domain.pddl
 input=$path/to_run.txt
 
+ulimit -t 600
+ulimit -v 50000000
+
 while IFS= read -r file; do
     echo "Solving Problem ${FILE}";
-    timeout 600 optic-cplex $domain ${path}/instances/${file} > ${path}/plans/map_analyzer_${file%.*}_plan.pddl;
+    optic-cplex $domain ${path}/instances/${file} > ${path}/plans/map_analyzer_${file%.*}_plan.pddl;
 done < "$input"
