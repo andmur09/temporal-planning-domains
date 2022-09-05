@@ -85,8 +85,6 @@
 )
 
 
-
-
 (:durative-action take_image
  :parameters (?r - rover ?p - waypoint ?o - objective ?i - camera ?m - mode)
  :duration (= ?duration 7)

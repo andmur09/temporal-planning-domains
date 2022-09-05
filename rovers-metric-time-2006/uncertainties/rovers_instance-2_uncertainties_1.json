@@ -1,0 +1,55 @@
+{
+    "actions": [
+        {
+            "name": "sample_rock", 
+            "mean_fraction": 1.1284643014654772, 
+            "sd_fraction": 0.11513565797851538
+        }, 
+        {
+            "name": "recharge", 
+            "mean_fraction": 0.9307515330897118, 
+            "sd_fraction": 0.15137290368484105
+        }, 
+        {
+            "name": "drop", 
+            "mean_fraction": 0.8982904981636708, 
+            "sd_fraction": 0.07061965132501527
+        }, 
+        {
+            "name": "sample_soil", 
+            "mean_fraction": 1.192532423552577, 
+            "sd_fraction": 0.18832852933397157
+        }, 
+        {
+            "name": "communicate_rock_data", 
+            "mean_fraction": 1.0315034152995302, 
+            "sd_fraction": 0.17846268435880666
+        }, 
+        {
+            "name": "communicate_image_data", 
+            "mean_fraction": 0.6079087713300386, 
+            "sd_fraction": 0.1375303487372978
+        }, 
+        {
+            "name": "calibrate", 
+            "mean_fraction": 1.099282629574149, 
+            "sd_fraction": 0.19331786120524735
+        }, 
+        {
+            "name": "navigate", 
+            "mean_fraction": 1.3119256672578479, 
+            "sd_fraction": 0.08669825999165369
+        }, 
+        {
+            "name": "take_image", 
+            "mean_fraction": 0.6715382256610802, 
+            "sd_fraction": 0.1071903308160356
+        }, 
+        {
+            "name": "communicate_soil_data", 
+            "mean_fraction": 0.8809653649059492, 
+            "sd_fraction": 0.10955468579381092
+        }
+    ], 
+    "tils": []
+}

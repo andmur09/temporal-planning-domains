@@ -1,9 +1,11 @@
 #!/bin/bash
 path=$(pwd)
-domain=$path/domain.pddl
 input=$path/to_run.txt
+
+ulimit -t 1800
+ulimit -v 70000000
 
 while IFS= read -r file; do
     echo "Solving Problem ${FILE}";
-    timeout 600 optic-cplex $domain ${path}/instances/${file} > ${path}/plans/parc_printer_${file%.*}_plan.pddl;
+    optic-cplex ${path}/domains/domain-${file}.pddl ${path}/instances/instance-${file}.pddl > ${path}/plans/parc_printer_instance-${file}_plan.pddl;
 done < "$input"
