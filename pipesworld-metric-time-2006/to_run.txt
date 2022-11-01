@@ -1,3 +1,0 @@
-instance-1.pddl
-instance-2.pddl
-instance-3.pddl

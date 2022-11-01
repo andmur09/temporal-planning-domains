@@ -1,2 +1,0 @@
-instance-20.pddl
-instance-21.pddl
