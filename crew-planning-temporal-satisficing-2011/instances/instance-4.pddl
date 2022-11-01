@@ -3,16 +3,16 @@
 (:objects
 	d0 d1 d2 - Day
 
-	c1 c2 c3 - CrewMember
-	mcs1 mcs2 mcs3 - MedicalState
+	c1 c2 c3 - crewmember
+	mcs1 mcs2 mcs3 - medicalstate
 
-	spaceshipFilter - FilterState
+	spaceshipFilter - filterstate
 
-	rpcm1 - RPCM
+	rpcm1 - rpcm
 
-	pa1_1 pa1_2 pa1_3 pa1_4 pa1_5 pa1_6 pa1_7 pa1_8 pa1_9 pa1_10 pa1_11 pa1_12 pa1_13 pa1_14 pa1_15 pa1_16 - PayloadAct
+	pa1_1 pa1_2 pa1_3 pa1_4 pa1_5 pa1_6 pa1_7 pa1_8 pa1_9 pa1_10 pa1_11 pa1_12 pa1_13 pa1_14 pa1_15 pa1_16 - payloadact
 
-	e1 - ExerEquipment
+	e1 - exerequipment
 )
 
 (:init
@@ -42,7 +42,7 @@
 	(mcs_finished mcs2 d1)
 	(mcs_finished mcs3 d1)
 
-	(changed spaceshipFilter d1)
+	(changed spaceshipfilter d1)
 
 	(done_rpcm rpcm1 d1)
 

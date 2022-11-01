@@ -1,34 +1,35 @@
-Number of literals: 244
+Number of literals: 228
 Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
 Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+No semaphore facts found, returning
 Seeing if metric is defined in terms of task vars or a minimal value of makespan
 - Yes it is
 Recognised a monotonic-change-induced limit on -1.000*<special>
 - Must be >=  the metric
-[01;31mLooking for achievers for goal index 0, fact (in crate0 depot0) with fID 132[00m
+[01;31mLooking for achievers for goal index 0, fact (in_crate crate0 depot0) with fID 116[00m
  (drop hoist0 crate0 depot0-1-2 depot0-1-1 depot0) (drop hoist1 crate0 depot0-1-2 depot0-1-1 depot0) (drop hoist0 crate0 depot0-2-1 depot0-1-1 depot0) (drop hoist1 crate0 depot0-2-1 depot0-1-1 depot0) (drop hoist0 crate0 depot0-1-1 depot0-1-2 depot0) (drop hoist1 crate0 depot0-1-1 depot0-1-2 depot0) (drop hoist0 crate0 depot0-2-2 depot0-1-2 depot0) (drop hoist1 crate0 depot0-2-2 depot0-1-2 depot0) (drop hoist0 crate0 depot0-1-1 depot0-2-1 depot0) (drop hoist1 crate0 depot0-1-1 depot0-2-1 depot0) (drop hoist0 crate0 depot0-2-2 depot0-2-1 depot0) (drop hoist1 crate0 depot0-2-2 depot0-2-1 depot0) (drop hoist0 crate0 depot0-1-2 depot0-2-2 depot0) (drop hoist1 crate0 depot0-1-2 depot0-2-2 depot0) (drop hoist0 crate0 depot0-2-1 depot0-2-2 depot0) (drop hoist1 crate0 depot0-2-1 depot0-2-2 depot0) (drop hoist0 crate0 depot0-2-1 loadarea depot0) (drop hoist1 crate0 depot0-2-1 loadarea depot0)
-[01;34mFor limits: literal goal index 0, fact (in crate0 depot0), could be achieved by operator (drop hoist0 crate0 depot0-1-2 depot0-1-1 depot0), which has other interesting effects (including one on (on crate0 depot0-1-2) )[00m
-[01;31mLooking for achievers for goal index 1, fact (in crate1 depot0) with fID 134[00m
+[01;34mFor limits: literal goal index 0, fact (in_crate crate0 depot0), could be achieved by operator (drop hoist0 crate0 depot0-1-2 depot0-1-1 depot0), which has other interesting effects (including one on (on crate0 depot0-1-2) )[00m
+[01;31mLooking for achievers for goal index 1, fact (in_crate crate1 depot0) with fID 118[00m
  (drop hoist0 crate1 depot0-1-2 depot0-1-1 depot0) (drop hoist1 crate1 depot0-1-2 depot0-1-1 depot0) (drop hoist0 crate1 depot0-2-1 depot0-1-1 depot0) (drop hoist1 crate1 depot0-2-1 depot0-1-1 depot0) (drop hoist0 crate1 depot0-1-1 depot0-1-2 depot0) (drop hoist1 crate1 depot0-1-1 depot0-1-2 depot0) (drop hoist0 crate1 depot0-2-2 depot0-1-2 depot0) (drop hoist1 crate1 depot0-2-2 depot0-1-2 depot0) (drop hoist0 crate1 depot0-1-1 depot0-2-1 depot0) (drop hoist1 crate1 depot0-1-1 depot0-2-1 depot0) (drop hoist0 crate1 depot0-2-2 depot0-2-1 depot0) (drop hoist1 crate1 depot0-2-2 depot0-2-1 depot0) (drop hoist0 crate1 depot0-1-2 depot0-2-2 depot0) (drop hoist1 crate1 depot0-1-2 depot0-2-2 depot0) (drop hoist0 crate1 depot0-2-1 depot0-2-2 depot0) (drop hoist1 crate1 depot0-2-1 depot0-2-2 depot0) (drop hoist0 crate1 depot0-2-1 loadarea depot0) (drop hoist1 crate1 depot0-2-1 loadarea depot0)
-[01;34mFor limits: literal goal index 1, fact (in crate1 depot0), could be achieved by operator (drop hoist0 crate1 depot0-1-2 depot0-1-1 depot0), which has other interesting effects (including one on (on crate1 depot0-1-2) )[00m
-[01;31mLooking for achievers for goal index 2, fact (in crate2 depot0) with fID 136[00m
+[01;34mFor limits: literal goal index 1, fact (in_crate crate1 depot0), could be achieved by operator (drop hoist0 crate1 depot0-1-2 depot0-1-1 depot0), which has other interesting effects (including one on (on crate1 depot0-1-2) )[00m
+[01;31mLooking for achievers for goal index 2, fact (in_crate crate2 depot0) with fID 120[00m
  (drop hoist0 crate2 depot0-1-2 depot0-1-1 depot0) (drop hoist1 crate2 depot0-1-2 depot0-1-1 depot0) (drop hoist0 crate2 depot0-2-1 depot0-1-1 depot0) (drop hoist1 crate2 depot0-2-1 depot0-1-1 depot0) (drop hoist0 crate2 depot0-1-1 depot0-1-2 depot0) (drop hoist1 crate2 depot0-1-1 depot0-1-2 depot0) (drop hoist0 crate2 depot0-2-2 depot0-1-2 depot0) (drop hoist1 crate2 depot0-2-2 depot0-1-2 depot0) (drop hoist0 crate2 depot0-1-1 depot0-2-1 depot0) (drop hoist1 crate2 depot0-1-1 depot0-2-1 depot0) (drop hoist0 crate2 depot0-2-2 depot0-2-1 depot0) (drop hoist1 crate2 depot0-2-2 depot0-2-1 depot0) (drop hoist0 crate2 depot0-1-2 depot0-2-2 depot0) (drop hoist1 crate2 depot0-1-2 depot0-2-2 depot0) (drop hoist0 crate2 depot0-2-1 depot0-2-2 depot0) (drop hoist1 crate2 depot0-2-1 depot0-2-2 depot0) (drop hoist0 crate2 depot0-2-1 loadarea depot0) (drop hoist1 crate2 depot0-2-1 loadarea depot0)
-[01;34mFor limits: literal goal index 2, fact (in crate2 depot0), could be achieved by operator (drop hoist0 crate2 depot0-1-2 depot0-1-1 depot0), which has other interesting effects (including one on (on crate2 depot0-1-2) )[00m
-[01;31mLooking for achievers for goal index 3, fact (in crate3 depot0) with fID 138[00m
+[01;34mFor limits: literal goal index 2, fact (in_crate crate2 depot0), could be achieved by operator (drop hoist0 crate2 depot0-1-2 depot0-1-1 depot0), which has other interesting effects (including one on (on crate2 depot0-1-2) )[00m
+[01;31mLooking for achievers for goal index 3, fact (in_crate crate3 depot0) with fID 122[00m
  (drop hoist0 crate3 depot0-1-2 depot0-1-1 depot0) (drop hoist1 crate3 depot0-1-2 depot0-1-1 depot0) (drop hoist0 crate3 depot0-2-1 depot0-1-1 depot0) (drop hoist1 crate3 depot0-2-1 depot0-1-1 depot0) (drop hoist0 crate3 depot0-1-1 depot0-1-2 depot0) (drop hoist1 crate3 depot0-1-1 depot0-1-2 depot0) (drop hoist0 crate3 depot0-2-2 depot0-1-2 depot0) (drop hoist1 crate3 depot0-2-2 depot0-1-2 depot0) (drop hoist0 crate3 depot0-1-1 depot0-2-1 depot0) (drop hoist1 crate3 depot0-1-1 depot0-2-1 depot0) (drop hoist0 crate3 depot0-2-2 depot0-2-1 depot0) (drop hoist1 crate3 depot0-2-2 depot0-2-1 depot0) (drop hoist0 crate3 depot0-1-2 depot0-2-2 depot0) (drop hoist1 crate3 depot0-1-2 depot0-2-2 depot0) (drop hoist0 crate3 depot0-2-1 depot0-2-2 depot0) (drop hoist1 crate3 depot0-2-1 depot0-2-2 depot0) (drop hoist0 crate3 depot0-2-1 loadarea depot0) (drop hoist1 crate3 depot0-2-1 loadarea depot0)
-[01;34mFor limits: literal goal index 3, fact (in crate3 depot0), could be achieved by operator (drop hoist0 crate3 depot0-1-2 depot0-1-1 depot0), which has other interesting effects (including one on (on crate3 depot0-1-2) )[00m
-[01;31mLooking for achievers for goal index 4, fact (in crate4 depot1) with fID 180[00m
+[01;34mFor limits: literal goal index 3, fact (in_crate crate3 depot0), could be achieved by operator (drop hoist0 crate3 depot0-1-2 depot0-1-1 depot0), which has other interesting effects (including one on (on crate3 depot0-1-2) )[00m
+[01;31mLooking for achievers for goal index 4, fact (in_crate crate4 depot1) with fID 164[00m
  (drop hoist0 crate4 depot1-1-2 depot1-1-1 depot1) (drop hoist1 crate4 depot1-1-2 depot1-1-1 depot1) (drop hoist0 crate4 depot1-2-1 depot1-1-1 depot1) (drop hoist1 crate4 depot1-2-1 depot1-1-1 depot1) (drop hoist0 crate4 depot1-1-1 depot1-1-2 depot1) (drop hoist1 crate4 depot1-1-1 depot1-1-2 depot1) (drop hoist0 crate4 depot1-2-2 depot1-1-2 depot1) (drop hoist1 crate4 depot1-2-2 depot1-1-2 depot1) (drop hoist0 crate4 depot1-1-1 depot1-2-1 depot1) (drop hoist1 crate4 depot1-1-1 depot1-2-1 depot1) (drop hoist0 crate4 depot1-2-2 depot1-2-1 depot1) (drop hoist1 crate4 depot1-2-2 depot1-2-1 depot1) (drop hoist0 crate4 depot1-1-2 depot1-2-2 depot1) (drop hoist1 crate4 depot1-1-2 depot1-2-2 depot1) (drop hoist0 crate4 depot1-2-1 depot1-2-2 depot1) (drop hoist1 crate4 depot1-2-1 depot1-2-2 depot1) (drop hoist0 crate4 depot1-2-2 loadarea depot1) (drop hoist1 crate4 depot1-2-2 loadarea depot1)
-[01;34mFor limits: literal goal index 4, fact (in crate4 depot1), could be achieved by operator (drop hoist0 crate4 depot1-1-2 depot1-1-1 depot1), which has other interesting effects (including one on (on crate4 depot1-1-2) )[00m
-[01;31mLooking for achievers for goal index 5, fact (in crate5 depot1) with fID 182[00m
+[01;34mFor limits: literal goal index 4, fact (in_crate crate4 depot1), could be achieved by operator (drop hoist0 crate4 depot1-1-2 depot1-1-1 depot1), which has other interesting effects (including one on (on crate4 depot1-1-2) )[00m
+[01;31mLooking for achievers for goal index 5, fact (in_crate crate5 depot1) with fID 166[00m
  (drop hoist0 crate5 depot1-1-2 depot1-1-1 depot1) (drop hoist1 crate5 depot1-1-2 depot1-1-1 depot1) (drop hoist0 crate5 depot1-2-1 depot1-1-1 depot1) (drop hoist1 crate5 depot1-2-1 depot1-1-1 depot1) (drop hoist0 crate5 depot1-1-1 depot1-1-2 depot1) (drop hoist1 crate5 depot1-1-1 depot1-1-2 depot1) (drop hoist0 crate5 depot1-2-2 depot1-1-2 depot1) (drop hoist1 crate5 depot1-2-2 depot1-1-2 depot1) (drop hoist0 crate5 depot1-1-1 depot1-2-1 depot1) (drop hoist1 crate5 depot1-1-1 depot1-2-1 depot1) (drop hoist0 crate5 depot1-2-2 depot1-2-1 depot1) (drop hoist1 crate5 depot1-2-2 depot1-2-1 depot1) (drop hoist0 crate5 depot1-1-2 depot1-2-2 depot1) (drop hoist1 crate5 depot1-1-2 depot1-2-2 depot1) (drop hoist0 crate5 depot1-2-1 depot1-2-2 depot1) (drop hoist1 crate5 depot1-2-1 depot1-2-2 depot1) (drop hoist0 crate5 depot1-2-2 loadarea depot1) (drop hoist1 crate5 depot1-2-2 loadarea depot1)
-[01;34mFor limits: literal goal index 5, fact (in crate5 depot1), could be achieved by operator (drop hoist0 crate5 depot1-1-2 depot1-1-1 depot1), which has other interesting effects (including one on (on crate5 depot1-1-2) )[00m
-[01;31mLooking for achievers for goal index 6, fact (in crate6 depot1) with fID 184[00m
+[01;34mFor limits: literal goal index 5, fact (in_crate crate5 depot1), could be achieved by operator (drop hoist0 crate5 depot1-1-2 depot1-1-1 depot1), which has other interesting effects (including one on (on crate5 depot1-1-2) )[00m
+[01;31mLooking for achievers for goal index 6, fact (in_crate crate6 depot1) with fID 168[00m
  (drop hoist0 crate6 depot1-1-2 depot1-1-1 depot1) (drop hoist1 crate6 depot1-1-2 depot1-1-1 depot1) (drop hoist0 crate6 depot1-2-1 depot1-1-1 depot1) (drop hoist1 crate6 depot1-2-1 depot1-1-1 depot1) (drop hoist0 crate6 depot1-1-1 depot1-1-2 depot1) (drop hoist1 crate6 depot1-1-1 depot1-1-2 depot1) (drop hoist0 crate6 depot1-2-2 depot1-1-2 depot1) (drop hoist1 crate6 depot1-2-2 depot1-1-2 depot1) (drop hoist0 crate6 depot1-1-1 depot1-2-1 depot1) (drop hoist1 crate6 depot1-1-1 depot1-2-1 depot1) (drop hoist0 crate6 depot1-2-2 depot1-2-1 depot1) (drop hoist1 crate6 depot1-2-2 depot1-2-1 depot1) (drop hoist0 crate6 depot1-1-2 depot1-2-2 depot1) (drop hoist1 crate6 depot1-1-2 depot1-2-2 depot1) (drop hoist0 crate6 depot1-2-1 depot1-2-2 depot1) (drop hoist1 crate6 depot1-2-1 depot1-2-2 depot1) (drop hoist0 crate6 depot1-2-2 loadarea depot1) (drop hoist1 crate6 depot1-2-2 loadarea depot1)
-[01;34mFor limits: literal goal index 6, fact (in crate6 depot1), could be achieved by operator (drop hoist0 crate6 depot1-1-2 depot1-1-1 depot1), which has other interesting effects (including one on (on crate6 depot1-1-2) )[00m
-[01;31mLooking for achievers for goal index 7, fact (in crate7 depot1) with fID 186[00m
+[01;34mFor limits: literal goal index 6, fact (in_crate crate6 depot1), could be achieved by operator (drop hoist0 crate6 depot1-1-2 depot1-1-1 depot1), which has other interesting effects (including one on (on crate6 depot1-1-2) )[00m
+[01;31mLooking for achievers for goal index 7, fact (in_crate crate7 depot1) with fID 170[00m
  (drop hoist0 crate7 depot1-1-2 depot1-1-1 depot1) (drop hoist1 crate7 depot1-1-2 depot1-1-1 depot1) (drop hoist0 crate7 depot1-2-1 depot1-1-1 depot1) (drop hoist1 crate7 depot1-2-1 depot1-1-1 depot1) (drop hoist0 crate7 depot1-1-1 depot1-1-2 depot1) (drop hoist1 crate7 depot1-1-1 depot1-1-2 depot1) (drop hoist0 crate7 depot1-2-2 depot1-1-2 depot1) (drop hoist1 crate7 depot1-2-2 depot1-1-2 depot1) (drop hoist0 crate7 depot1-1-1 depot1-2-1 depot1) (drop hoist1 crate7 depot1-1-1 depot1-2-1 depot1) (drop hoist0 crate7 depot1-2-2 depot1-2-1 depot1) (drop hoist1 crate7 depot1-2-2 depot1-2-1 depot1) (drop hoist0 crate7 depot1-1-2 depot1-2-2 depot1) (drop hoist1 crate7 depot1-1-2 depot1-2-2 depot1) (drop hoist0 crate7 depot1-2-1 depot1-2-2 depot1) (drop hoist1 crate7 depot1-2-1 depot1-2-2 depot1) (drop hoist0 crate7 depot1-2-2 loadarea depot1) (drop hoist1 crate7 depot1-2-2 loadarea depot1)
-[01;34mFor limits: literal goal index 7, fact (in crate7 depot1), could be achieved by operator (drop hoist0 crate7 depot1-1-2 depot1-1-1 depot1), which has other interesting effects (including one on (on crate7 depot1-1-2) )[00m
+[01;34mFor limits: literal goal index 7, fact (in_crate crate7 depot1), could be achieved by operator (drop hoist0 crate7 depot1-1-2 depot1-1-1 depot1), which has other interesting effects (including one on (on crate7 depot1-1-2) )[00m
 All the ground actions in this problem are compression-safe
 Initial heuristic = 18.000, admissible cost estimate 3.003
 b (16.000 | 1.000)b (15.000 | 3.001)b (14.000 | 4.003)b (13.000 | 6.004)b (12.000 | 10.004)b (11.000 | 14.007)b (10.000 | 22.009)b (9.000 | 24.009)b (8.000 | 31.012)b (7.000 | 34.012)b (6.000 | 39.015)b (5.000 | 43.016)b (4.000 | 51.019)b (2.000 | 53.019)
@@ -41,7 +42,7 @@ b (16.000 | 1.000)b (15.000 | 3.001)b (14.000 | 5.003)b (13.000 | 7.004)b (13.00
 ; Theoretical reachable cost 44.018
 ; States evaluated so far: 679840
 ; States pruned based on pre-heuristic cost lower bound: 0
-; Time 992.27
+; Time 1043.21
 0.000: (go-out hoist1 depot1-2-2 loadarea)  [1.000]
 0.000: (move hoist0 depot0-1-1 depot0-2-1)  [1.000]
 1.001: (go-out hoist0 depot0-2-1 loadarea)  [1.000]
@@ -92,7 +93,7 @@ b (1.000 | 38.013)(G)
 ; Theoretical reachable cost 38.015
 ; States evaluated so far: 1003152
 ; States pruned based on pre-heuristic cost lower bound: 27
-; Time 1625.28
+; Time 1711.87
 0.000: (go-out hoist1 depot1-2-2 loadarea)  [1.000]
 0.000: (move hoist0 depot0-1-1 depot0-2-1)  [1.000]
 1.001: (go-out hoist0 depot0-2-1 loadarea)  [1.000]
@@ -140,7 +141,7 @@ b (1.000 | 37.015)(G)
 ; Theoretical reachable cost 37.018
 ; States evaluated so far: 1003163
 ; States pruned based on pre-heuristic cost lower bound: 43
-; Time 1625.30
+; Time 1711.89
 0.000: (go-out hoist1 depot1-2-2 loadarea)  [1.000]
 0.000: (move hoist0 depot0-1-1 depot0-2-1)  [1.000]
 1.001: (go-out hoist0 depot0-2-1 loadarea)  [1.000]

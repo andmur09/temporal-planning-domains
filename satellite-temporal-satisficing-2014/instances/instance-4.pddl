@@ -25,151 +25,151 @@
 	image4 - mode
 	infrared3 - mode
 	image0 - mode
-	GroundStation4 - direction
-	Star2 - direction
-	Star5 - direction
-	GroundStation1 - direction
-	GroundStation11 - direction
-	GroundStation3 - direction
-	GroundStation12 - direction
-	GroundStation10 - direction
-	Star9 - direction
-	Star6 - direction
-	GroundStation0 - direction
-	GroundStation8 - direction
-	Star7 - direction
-	Phenomenon13 - direction
-	Star14 - direction
-	Phenomenon15 - direction
-	Star16 - direction
-	Star17 - direction
-	Planet18 - direction
-	Star19 - direction
-	Star20 - direction
-	Planet21 - direction
-	Phenomenon22 - direction
-	Planet23 - direction
-	Phenomenon24 - direction
-	Phenomenon25 - direction
-	Planet26 - direction
-	Planet27 - direction
-	Star28 - direction
-	Star29 - direction
-	Planet30 - direction
-	Planet31 - direction
-	Star32 - direction
-	Star33 - direction
-	Phenomenon34 - direction
-	Phenomenon35 - direction
+	groundstation4 - direction
+	star2 - direction
+	star5 - direction
+	groundstation1 - direction
+	groundstation11 - direction
+	groundstation3 - direction
+	groundstation12 - direction
+	groundstation10 - direction
+	star9 - direction
+	star6 - direction
+	groundstation0 - direction
+	groundstation8 - direction
+	star7 - direction
+	phenomenon13 - direction
+	star14 - direction
+	phenomenon15 - direction
+	star16 - direction
+	star17 - direction
+	planet18 - direction
+	star19 - direction
+	star20 - direction
+	planet21 - direction
+	phenomenon22 - direction
+	planet23 - direction
+	phenomenon24 - direction
+	phenomenon25 - direction
+	planet26 - direction
+	planet27 - direction
+	star28 - direction
+	star29 - direction
+	planet30 - direction
+	planet31 - direction
+	star32 - direction
+	star33 - direction
+	phenomenon34 - direction
+	phenomenon35 - direction
 )
 (:init
 	(supports instrument0 thermograph5)
 	(supports instrument0 infrared3)
-	(calibration_target instrument0 GroundStation1)
+	(calibration_target instrument0 groundstation1)
 	(on_board instrument0 satellite0)
 	(power_avail satellite0)
-	(pointing satellite0 Planet18)
+	(pointing satellite0 planet18)
 	(supports instrument1 thermograph5)
-	(calibration_target instrument1 Star2)
-	(calibration_target instrument1 GroundStation0)
+	(calibration_target instrument1 star2)
+	(calibration_target instrument1 groundstation0)
 	(supports instrument2 thermograph5)
 	(supports instrument2 infrared3)
-	(calibration_target instrument2 GroundStation1)
+	(calibration_target instrument2 groundstation1)
 	(supports instrument3 image0)
-	(calibration_target instrument3 GroundStation8)
+	(calibration_target instrument3 groundstation8)
 	(supports instrument4 infrared3)
 	(supports instrument4 image4)
-	(calibration_target instrument4 GroundStation0)
-	(calibration_target instrument4 Star6)
-	(calibration_target instrument4 GroundStation10)
-	(calibration_target instrument4 Star9)
+	(calibration_target instrument4 groundstation0)
+	(calibration_target instrument4 star6)
+	(calibration_target instrument4 groundstation10)
+	(calibration_target instrument4 star9)
 	(on_board instrument1 satellite1)
 	(on_board instrument2 satellite1)
 	(on_board instrument3 satellite1)
 	(on_board instrument4 satellite1)
 	(power_avail satellite1)
-	(pointing satellite1 Planet31)
+	(pointing satellite1 planet31)
 	(supports instrument5 image4)
-	(calibration_target instrument5 Star5)
+	(calibration_target instrument5 star5)
 	(supports instrument6 thermograph5)
 	(supports instrument6 spectrograph1)
 	(supports instrument6 infrared3)
-	(calibration_target instrument6 GroundStation1)
-	(calibration_target instrument6 GroundStation11)
+	(calibration_target instrument6 groundstation1)
+	(calibration_target instrument6 groundstation11)
 	(on_board instrument5 satellite2)
 	(on_board instrument6 satellite2)
 	(power_avail satellite2)
-	(pointing satellite2 GroundStation1)
+	(pointing satellite2 groundstation1)
 	(supports instrument7 infrared3)
 	(supports instrument7 thermograph5)
 	(supports instrument7 spectrograph1)
-	(calibration_target instrument7 GroundStation11)
+	(calibration_target instrument7 groundstation11)
 	(supports instrument8 infrared3)
 	(supports instrument8 image0)
 	(supports instrument8 spectrograph2)
-	(calibration_target instrument8 GroundStation10)
-	(calibration_target instrument8 Star7)
-	(calibration_target instrument8 GroundStation8)
+	(calibration_target instrument8 groundstation10)
+	(calibration_target instrument8 star7)
+	(calibration_target instrument8 groundstation8)
 	(supports instrument9 image4)
-	(calibration_target instrument9 Star6)
-	(calibration_target instrument9 GroundStation12)
-	(calibration_target instrument9 GroundStation3)
-	(calibration_target instrument9 Star7)
+	(calibration_target instrument9 star6)
+	(calibration_target instrument9 groundstation12)
+	(calibration_target instrument9 groundstation3)
+	(calibration_target instrument9 star7)
 	(supports instrument10 spectrograph2)
-	(calibration_target instrument10 GroundStation10)
+	(calibration_target instrument10 groundstation10)
 	(supports instrument11 image4)
-	(calibration_target instrument11 Star9)
+	(calibration_target instrument11 star9)
 	(on_board instrument7 satellite3)
 	(on_board instrument8 satellite3)
 	(on_board instrument9 satellite3)
 	(on_board instrument10 satellite3)
 	(on_board instrument11 satellite3)
 	(power_avail satellite3)
-	(pointing satellite3 Star33)
+	(pointing satellite3 star33)
 	(supports instrument12 image0)
 	(supports instrument12 infrared3)
-	(calibration_target instrument12 Star7)
-	(calibration_target instrument12 GroundStation8)
-	(calibration_target instrument12 GroundStation0)
-	(calibration_target instrument12 Star6)
+	(calibration_target instrument12 star7)
+	(calibration_target instrument12 groundstation8)
+	(calibration_target instrument12 groundstation0)
+	(calibration_target instrument12 star6)
 	(on_board instrument12 satellite4)
 	(power_avail satellite4)
-	(pointing satellite4 GroundStation8)
+	(pointing satellite4 groundstation8)
 )
 (:goal (and
-	(pointing satellite3 Planet30)
-	(pointing satellite4 Planet30)
-	(have_image Star14 image4)
-	(have_image Star16 thermograph5)
-	(have_image Star17 thermograph5)
-	(have_image Planet18 spectrograph2)
-	(have_image Planet18 image4)
-	(have_image Star19 image4)
-	(have_image Star19 spectrograph2)
-	(have_image Star20 thermograph5)
-	(have_image Star20 infrared3)
-	(have_image Planet21 thermograph5)
-	(have_image Phenomenon22 thermograph5)
-	(have_image Phenomenon22 spectrograph2)
-	(have_image Planet23 spectrograph2)
-	(have_image Phenomenon25 infrared3)
-	(have_image Planet26 infrared3)
-	(have_image Planet26 spectrograph2)
-	(have_image Planet27 thermograph5)
-	(have_image Star28 thermograph5)
-	(have_image Star29 image0)
-	(have_image Planet30 spectrograph2)
-	(have_image Planet30 image0)
-	(have_image Planet31 spectrograph2)
-	(have_image Planet31 image4)
-	(have_image Star32 spectrograph1)
-	(have_image Star32 thermograph5)
-	(have_image Star33 image0)
-	(have_image Star33 spectrograph1)
-	(have_image Phenomenon34 image0)
-	(have_image Phenomenon34 infrared3)
-	(have_image Phenomenon35 image0)
-	(have_image Phenomenon35 spectrograph2)
+	(pointing satellite3 planet30)
+	(pointing satellite4 planet30)
+	(have_image star14 image4)
+	(have_image star16 thermograph5)
+	(have_image star17 thermograph5)
+	(have_image planet18 spectrograph2)
+	(have_image planet18 image4)
+	(have_image star19 image4)
+	(have_image star19 spectrograph2)
+	(have_image star20 thermograph5)
+	(have_image star20 infrared3)
+	(have_image planet21 thermograph5)
+	(have_image phenomenon22 thermograph5)
+	(have_image phenomenon22 spectrograph2)
+	(have_image planet23 spectrograph2)
+	(have_image phenomenon25 infrared3)
+	(have_image planet26 infrared3)
+	(have_image planet26 spectrograph2)
+	(have_image planet27 thermograph5)
+	(have_image star28 thermograph5)
+	(have_image star29 image0)
+	(have_image planet30 spectrograph2)
+	(have_image planet30 image0)
+	(have_image planet31 spectrograph2)
+	(have_image planet31 image4)
+	(have_image star32 spectrograph1)
+	(have_image star32 thermograph5)
+	(have_image star33 image0)
+	(have_image star33 spectrograph1)
+	(have_image phenomenon34 image0)
+	(have_image phenomenon34 infrared3)
+	(have_image phenomenon35 image0)
+	(have_image phenomenon35 spectrograph2)
 ))
 (:metric minimize (total-time))
 

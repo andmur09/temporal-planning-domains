@@ -1,18 +1,18 @@
 (define (problem CrewPlanning_3crew_2day_80utilization)
 (:domain CrewPlanning)
 (:objects
-	d0 d1 d2 d3 - Day
+	d0 d1 d2 d3 - day
 
-	c1 c2 c3 - CrewMember
-	mcs1 mcs2 mcs3 - MedicalState
+	c1 c2 c3 - crewmember
+	mcs1 mcs2 mcs3 - medicalstate
 
-	spaceshipFilter - FilterState
+	spaceshipFilter - filterstate
 
-	rpcm2 - RPCM
+	rpcm2 - rpcm
 
-	pa1_1 pa1_2 pa1_3 pa1_4 pa1_5 pa1_6 pa1_7 pa1_8 pa1_9 pa1_10 pa1_11 pa1_12 pa1_13 pa1_14 pa1_15 pa1_16 pa1_17 pa1_18 pa1_19 pa2_1 pa2_2 pa2_3 pa2_4 pa2_5 pa2_6 pa2_7 pa2_8 pa2_9 pa2_10 pa2_11 pa2_12 pa2_13 pa2_14 pa2_15 pa2_16 pa2_17 pa2_18 - PayloadAct
+	pa1_1 pa1_2 pa1_3 pa1_4 pa1_5 pa1_6 pa1_7 pa1_8 pa1_9 pa1_10 pa1_11 pa1_12 pa1_13 pa1_14 pa1_15 pa1_16 pa1_17 pa1_18 pa1_19 pa2_1 pa2_2 pa2_3 pa2_4 pa2_5 pa2_6 pa2_7 pa2_8 pa2_9 pa2_10 pa2_11 pa2_12 pa2_13 pa2_14 pa2_15 pa2_16 pa2_17 pa2_18 - payloadact
 
-	e1 e2 e3 - ExerEquipment
+	e1 e2 e3 - exerequipment
 )
 
 (:init
